@@ -1,0 +1,48 @@
+.firstDiv {
+    margin-top: 10px;
+}
+.li {
+    padding: 1px 5px 1px 5px;
+    margin-top: 4px;
+    display: flex;
+    justify-content: space-between;
+    border: solid;
+    border-radius: 5px;
+    border-color: rgb(72, 71, 71);
+}
+.generalDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.ul{
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    width: 20%;
+}
+i{
+    color: white;
+}
+i:hover{
+    color: red;
+    cursor: pointer;
+}
+.deleteAll{
+    margin-top: 30px;
+}
+.btnAdd{
+    border: solid;
+    border-color: black;
+    background-color: black;
+    color: white;
+    margin-left: 3px;
+}
+.btnDelete{
+    border: solid;
+    border-color: black;
+    background-color: black;
+    color: white;
+}
