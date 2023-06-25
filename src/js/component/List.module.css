@@ -8,14 +8,17 @@
     justify-content: space-between;
     border: solid;
     border-radius: 5px;
-    border-color: rgb(72, 71, 71);
+    border-color: rgb(0, 0, 0);
+    background-color: transparent;
+}
+.li::placeholder{
+    color: black;
 }
 .generalDiv{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 100px;
 }
 .ul{
     padding: 0;
@@ -24,7 +27,7 @@
     width: 20%;
 }
 i{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 i:hover{
     color: red;
@@ -45,4 +48,23 @@ i:hover{
     border-color: black;
     background-color: black;
     color: white;
+}
+.inputs {
+    background-color: transparent;
+    color: black;
+    border: solid;
+    border-color: black;
+    margin-top: 5px;
+}
+.inputs::placeholder {
+    color: black;
+}
+.tasks{
+    font-family: 'Rammetto One', cursive;
+    margin-top: 20px;
+}
+.todolist{
+    font-family: 'Rammetto One', cursive;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
